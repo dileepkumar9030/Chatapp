@@ -1,22 +1,32 @@
-# Building a Website with Node & ExpressJS
-This is the repository for my course, [Building a Website with Node & ExpressJS](). The full course will be available at [lynda.com](http://lynda.com).
-- [My Personal Website](http://raybo.org)
+This is the repository for my project:
+# Real-time Live Chat application along with full functionality website using Node.js, Express.js, Socket.io & Ajax.
 
+My interest in building Full stack JavaScript websites that do more, made me find that Node.js and Express.js are perfect match.In this project, I have created the real time-live chat application along with a full featured website using these technologies.
+
+![Real-time live chat application along with full functionality website using Node.js, Express.js, Socket.io & Ajax.](chat.jpg)
+
+[Node.js®](https://nodejs.org/en/) is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+[Express.js](http://expressjs.com/) is a fast, minimalist framework that sits on top of Node.js and allows you to build powerful single- and multi-page web applications and websites.
+
+[Socket.IO](http://socket.io/) is a piece of middleware that enables real-time bidirectional event-based communication.The main idea behind Socket.IO is that you can send and receive any events you want, with any data you want.Using this middleware, I have created a instant real-time chat app, that broadcastes the messages to multiple users who are connected to the server by joining the chatroom on the client-side.
+
+Along with this,i have created a full featured JavaScript website which hosts this real time chat app.In this website,i have installed each package and levarage Node features from within Express, built an application with EJS template engine; created more flexible modular codes; built APIs to manage HTTP requests to add and delete content dynamically using Ajax requests and configure more complex routing.
+
+## Features
+
+- Multiple users can join a chat room by each entering a unique username on website load.
+- Users can type chat messages to the chat room.
+- A notification is sent to all users when a user joins or leaves the chatroom.
+- Users can add/delete feedback content dynamically on the website without reloading.
 
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage. Or you can simply add `/tree/BRANCH_NAME` to the URL to go to the branch you want to peek at.
 
-1. Make sure you have these installed
+1. Make sure you have these installed on your PC,MAC or Linux
 	- [node.js](http://nodejs.org/)
-	- [git](http://git-scm.com/)
-	- [gulp](http://gulpjs.com/)
-2. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `> git clone https://github.com/planetoftheweb/expressjs.git`
-3. CD to the folder `cd expressjs`
-4. Run `> npm install` to install the project dependencies
-5. Run `> gulp` command to start the automation
-6. Build something awesome
-
-For more help setting up a comprehensive Gulp.js workflow, check out [Web Project Workflows with Gulp.js, Git, and Browserify](http://www.lynda.com/Web-Web-Design-tutorials/Web-Project-Workflows-Gulpjs-Git-Browserify/154416-2.html).
+2. Download the zip, and extract to the folder named Expressjs.
+3. Then open the CMD or Terminal Bash from this folder.
+4. Run `> npm install` to install the project dependencies.
+5. Run `> npm start` command to start the automation.
 
 ## More Stuff
-Check out some of my [other courses on lynda.com](http://lynda.com/rayvillalobos). You can also check out my [youtube channel](http://youtube.com/planetoftheweb), [follow me on twitter](http://twitter.com/planetoftheweb), or read [my blog](http://raybo.org).
+For more projects and coding stuff, follow me @[Dileep Kumar](https://github.com/dileepkumar9030)
